@@ -14,6 +14,12 @@ def assign_rooms(speaks)
 end
 
 
-def printer(attendees)
-  return messages
+def printer(attendees, room)
+  puts "Hello, my name is #{attendees}."
+  
+ messages = []
+  attendees.each_with_index { |speaker, room|
+  messages.push("Hello, #{speaker}! You'll be assigned to room #{room+1}!")}
+  
+  
 end
