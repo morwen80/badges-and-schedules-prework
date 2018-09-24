@@ -15,7 +15,7 @@ end
 
 
 def printer(attendees)
-  puts "Hello, my name is #{attendees}."
+  return "Hello, my name is #{attendees}."
   
 # messages = []
 #   attendees.each_with_index { |speaker, room|
