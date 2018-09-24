@@ -10,7 +10,6 @@ def assign_rooms(speaks)
   messages = []
   speaks.each_with_index { |speaker, room|
   messages.push("Hello, #{speaker}! You'll be assigned to room #{room+1}!")}
-  
   return messages
 end
 
