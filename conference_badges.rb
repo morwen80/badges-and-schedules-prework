@@ -15,7 +15,6 @@ def assign_rooms(speaks)
 end
 
 
-def printer(attendee)
-  puts badge_maker
-  puts assign_rooms
+def printer(attendees)
+  return badge_maker.concat assign_rooms
 end
