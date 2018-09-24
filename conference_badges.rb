@@ -1,5 +1,3 @@
-# Write your code here.
-
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end 
@@ -18,6 +16,6 @@ end
 
 
 def printer(attendee)
-  return def badge_maker
-  
+  puts badge_maker
+  puts assign_rooms
 end
