@@ -14,7 +14,7 @@ def assign_rooms(speaks)
 end
 
 
-def printer(attendees, room)
+def printer(attendees)
   puts "Hello, my name is #{attendees}."
   
  messages = []
