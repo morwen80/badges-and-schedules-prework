@@ -17,9 +17,9 @@ end
 def printer(attendees)
   puts "Hello, my name is #{attendees}."
   
- messages = []
-  attendees.each_with_index { |speaker, room|
-  messages.push("Hello, #{speaker}! You'll be assigned to room #{room+1}!")}
+# messages = []
+#   attendees.each_with_index { |speaker, room|
+#   messages.push("Hello, #{speaker}! You'll be assigned to room #{room+1}!")}
   
   
 end
