@@ -15,5 +15,5 @@ end
 
 
 def printer(attendees)
-  return badge_maker.concat assign_rooms
+  return messages
 end
