@@ -15,11 +15,11 @@ end
 
 
 def printer(attendees)
-  return "Hello, my name is #{attendees}."
-  
-# messages = []
-#   attendees.each_with_index { |speaker, room|
-#   messages.push("Hello, #{speaker}! You'll be assigned to room #{room+1}!")}
-  
+  batch_badge_creator(attendees).each do |value|
+    puts value
+  end
+  assign_rooms(attendees).each do |value|
+    puts value
+  end
   
 end
